@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-title{
+    background-color: aquamarine;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2em;
+    text-align: center;
+
+}
+
+.middle-section{
+    margin: 3em 0;
+}
+
+.only-container{
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .only-container{
+        width: 90%;
+    }
+}
+
+.only-container textarea{
+    width: 100%;
+    height: 15vh;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid white;
+    padding: .5em 2em;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 1em 0;
+}
+.footer-container{
+    background-color: aquamarine;
+    color: white;
+    font-size: 1rem;
+    padding: 2em;
+    text-align: center;
+}
